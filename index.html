@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div class="toggle-theme" id="toggle-theme">
+          <img src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" id="toggle-icon">
+          <p class="toggle-theme__text" id="toggle-text">Dark Mode</p>       
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="/assets/icons/ar.svg" alt="arg" class="flags__img">          
+        </div>
+        <div class="flags__item" data-language="us">          
+          <img src="/assets/icons/us.svg" alt="usa" class="flags__img">
+        </div>
+      </div>
+      <div class="colors" id="toggle-colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__items colors__items--blue" ></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__items colors__items--green" ></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors__items colors__items--purple" ></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__items colors__items--orange" ></div>
+    
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/profile.jpg" 
+                 alt="" 
+                 class="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Nicolas Rodriguez</h2>
+            <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Front End Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:nicolasarielrodriguez@gmail.com" class="">nicolasarielrodriguez@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:2323513386" class="">+542323513386</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Llevo 2 años y medio incursionando en el apasionante mundo de la programacion web. Apasionado de las nuevas tecnologias, en especial el ecosistema CSS, JS y ReactJS. <br />
+              Mi objetivo es poder encontrar mi primer trabajo donde me pueda desempeñar profesionalmente, demostrar mis habilidades y continuar aprendiendo.
+            </p>
+
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title" data-section="experience" data-value="general-title">Experiencias</h2>
+          <div class="experience">
+            <img src="assets/images/logo1.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Abr 2020 - Current
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Freelance Front-End</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Desde hace 2 años comence con pequeños proyectos en HTML y CSS en el armado de paginas comerciales basicas donde el contenido era estatico. Luego tome proyectos donde se deben realizar interacciones entre la web y el usuario, aqui comence a introducir lenguaje de Javascript para realizar estas operaciones. Gracias a esto fui adquiriendo nuevos conocimientos y explorando distintos frameworks que facilitan el armado de una web con una calidad profesional extra, como los son Bootstrap o Material UI. En resumen, en estos dos años implemente conocimientos en HTML5, CCS3, Javascript ES6, React, JQuery, Git y JIRA/ClickUp</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo2.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                Sep 2005 - Current
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">Shitsuke S.R.L.</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">Funciones <br/><br/>
+                • Planificación y gestión de las actividades en el campo de la electrotecnología y eficiencia energética<br/>
+                • Normalización y aplicación de normas técnicas para el comité de normas IRAM<br/>
+                • Gestión, planificación, asistencia y evaluación sobre 12 colaboradores<br/>
+                • Soporte y asistencia técnica a clientes ante los requisitos establecidos por normas IRAM e IEC
+                </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="gamming" class="">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="first-hobbie-title">Gamming</h3>
+          <p class="card__text" data-section="hobbies" data-value="first-hobbie-description">Nunca se deja de ser chico! O al menos eso me gustaria creer ja. Uno de mis pasatiempos preferidos son los juegos en PC, en especial los competitivos como CS Go o Dota2.</p>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie2.jpg" alt="football" class="">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="second-hobbie-title">Football</h3> 
+          <p class="card__text" data-section="hobbies" data-value="second-hobbie-description">Otro hobbie que me apasiona es jugar al football, siempre es bueno juntarse con amigos pero mejor aun se hay una pelota de por medio.</p>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie3.jpg" alt="football" class="">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="last-hobbie-title">Family and Friends</h3> 
+          <p class="card__text" data-section="hobbies" data-value="last-hobbie-description">Por ultimo pero no menos importante, me encanta disfrutar de salir con amigos, ver series y peliculas y pasar momentos hermosos en familia.</p>
+          
+        </article>
+        
+
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">4</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">JS</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">ReactJS</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>  
+            <div class="skills__items">
+              <p class="skills__tech">Git/GitHub</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>           
+          </div>
+          
+        </article>
+        <article class="card">
+          <h2 class="card__title">Frameworks</h2>
+          <small>Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">MaterialUI</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">StyledComponent</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">MaterializeCSS</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">Bulma</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>                
+          </div>
+          
+        </article>
+        <article class="card">
+          <h2 class="card__title">Otras Skills</h2>
+          <small>Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">6</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+              <p class="skills__tech">Jira</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">SCRUM</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+                     
+          </div>
+          
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JS</span>
+              <span class="project__tag">#ReactJS</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni, esse laboriosam voluptates quis atque dolores laborum temporibus expedita enim consequuntur eum praesentium! Dignissimos quidem vitae aut quae eius aspernatur?</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni, esse laboriosam voluptates quis atque dolores laborum temporibus expedita enim consequuntur eum praesentium! Dignissimos quidem vitae aut quae eius aspernatur?</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card__project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JS</span>
+              <span class="project__tag">#ReactJS</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni, esse laboriosam voluptates quis atque dolores laborum temporibus expedita enim consequuntur eum praesentium! Dignissimos quidem vitae aut quae eius aspernatur?</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni, esse laboriosam voluptates quis atque dolores laborum temporibus expedita enim consequuntur eum praesentium! Dignissimos quidem vitae aut quae eius aspernatur?</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

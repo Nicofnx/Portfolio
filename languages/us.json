@@ -1,0 +1,23 @@
+{
+    "profile":{
+        "rol": "Front-End Developer",
+        "description":"I've been 2 and a half years venturing into the exciting world of web programming. Passionate about new technologies, especially the CSS, JS and ReactJS ecosystem. My goal is to be able to find my first job where I can perform professionally, demonstrate my skills and continue learning."
+    },
+    "experience":{
+        "general-title": "Experience",
+        "first-job-title": "Freelance Front-End",
+        "first-job-dates":"Abr 2020 - Current",
+        "first-job-description":"For 2 years I started with small projects in HTML and CSS in the assembly of basic commercial pages where the content was static. Then take projects where interactions between the web and the user must be carried out, here I began to introduce the Javascript language to carry out these operations. Thanks to this I was acquiring new knowledge and exploring different frameworks that facilitate the creation of a website with an extra professional quality, such as Bootstrap or Material UI. In summary, in these two years I implemented knowledge in HTML5, CCS3, Javascript ES6, React, JQuery, Git and JIRA/ClickUp",
+        "second-job-title": "Shitsuke S.R.L.",
+        "second-job-dates":"Sep 2005 - Current",
+        "second-job-description":"Functions<br/><br/>        • Planning and management of activities in the field of electrotechnology and energy efficiency<br/>        • Standardization and application of technical standards for the IRAM standards committee <br/>       • Management, planning, assistance and evaluation of 12 collaborators<br/>        • Support and technical assistance to clients in response to the requirements established by IRAM and IEC standards."
+    },
+    "hobbies":{
+        "first-hobbie-title":"Gamming",
+        "first-hobbie-description":"You never stop being a child! Or at least that's what I'd like to believe. One of my favorite hobbies is gaming on PC, especially competitive ones like CS Go or Dota2.",
+        "second-hobbie-title":"Football",
+        "second-hobbie-description":"Another hobby that I am passionate about is playing football, it is always good to get together with friends but it is even better when there is a ball involved.",
+        "last-hobbie-title":"Family and Friends",
+        "last-hobbie-description":"Last but not least, I love to enjoy going out with friends, watching series and movies and spending beautiful moments with my family."
+    }
+}

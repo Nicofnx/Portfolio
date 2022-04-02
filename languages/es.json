@@ -1,0 +1,23 @@
+{
+    "profile":{
+        "rol": "Desarrollado Front-End",
+        "description":"Llevo 2 años y medio incursionando en el apasionante mundo de la programacion web. Apasionado de las nuevas tecnologias, en especial el ecosistema CSS, JS y ReactJS.        Mi objetivo es poder encontrar mi primer trabajo donde me pueda desempeñar profesionalmente, demostrar mis habilidades y continuar aprendiendo."
+    },
+    "experience":{
+        "general-title": "Experiencia",
+        "first-job-title": "Freelance Front-End",
+        "first-job-dates":"Abr 2020 - Actualidad",
+        "first-job-description":"Desde hace 2 años comence con pequeños proyectos en HTML y CSS en el armado de paginas comerciales basicas donde el contenido era estatico. Luego tome proyectos donde se deben realizar interacciones entre la web y el usuario, aqui comence a introducir lenguaje de Javascript para realizar estas operaciones. Gracias a esto fui adquiriendo nuevos conocimientos y explorando distintos frameworks que facilitan el armado de una web con una calidad profesional extra, como los son Bootstrap o Material UI. En resumen, en estos dos años implemente conocimientos en HTML5, CCS3, Javascript ES6, React, JQuery, Git y JIRA/ClickUp",
+        "second-job-title": "Shitsuke S.R.L.",
+        "second-job-dates":"Sep 2005 - Actualidad",
+        "second-job-description":"Funciones<br/><br/>        • Planificación y gestión de las actividades en el campo de la electrotecnología y eficiencia energética<br/>        • Normalización y aplicación de normas técnicas para el comité de normas IRAM<br/>        • Gestión, planificación, asistencia y evaluación sobre 12 colaboradores<br/>        • Soporte y asistencia técnica a clientes ante los requisitos establecidos por normas IRAM e IEC"
+    },
+    "hobbies":{
+        "first-hobbie-title":"Gamming",
+        "first-hobbie-description":"Nunca se deja de ser chico! O al menos eso me gustaria creer ja. Uno de mis pasatiempos preferidos son los juegos en PC, en especial los competitivos como CS Go o Dota2.",
+        "second-hobbie-title":"Football",
+        "second-hobbie-description":"Otro hobbie que me apasiona es jugar al football, siempre es bueno juntarse con amigos pero mejor aun se hay una pelota de por medio.",
+        "last-hobbie-title":"Familia y Amigos",
+        "last-hobbie-description":"Por ultimo pero no menos importante, me encanta disfrutar de salir con amigos, ver series y peliculas y pasar momentos hermosos en familia."
+    }
+}
