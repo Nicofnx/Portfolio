@@ -47,6 +47,7 @@ img{
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
     transition: var(--transition);
+    
 }
 
 .switches{
