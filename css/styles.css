@@ -164,10 +164,22 @@ img{
 }
 
 .card__image-container{
+    
     min-width: 320px;
     border-radius: var(--border-radius);
-    overflow: hidden;
+    overflow: hidden;    
+    
+    
 }
+
+.min-heigth{
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+
+}
+
+
 
 .card__header{
     padding: 1em 0;
@@ -419,6 +431,8 @@ img{
 .no-margin{
     margin: 0px
 }
+
+
 
 
 
