@@ -160,6 +160,7 @@ img{
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
+    
 
 }
 
@@ -214,12 +215,14 @@ img{
 @media screen and (min-width:720px) {
     
 
-.card__project{
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-column: 1 / -1;
-    overflow: hidden;
-}
+    .card__project{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        grid-column: 1 / -1;
+        overflow: hidden;
+    }
+
+    
 }
 
 .skills{
@@ -438,17 +441,28 @@ img{
     margin: 0px
 }
 
+.footer{
+    width: 70vh;
+    
+}
+
+@media screen and (min-width:720px) {
+    .footer{
+        width: 100%;
+        
+    }
+ }
 
 .footer-container{
     display: flex;
-    justify-content: center;
-    
+    width: 100%;
+    justify-content: center;    
     flex-wrap: wrap;
     gap: 5rem;
     align-items: center;
     height: 150px;
     
-    margin: 0 30px 0 30px;
+    
 }
 
 .footer-logo{
@@ -463,6 +477,8 @@ img{
     animation: float 3s ease-in-out infinite;
     cursor: pointer;
 }
+
+
 
 #iconcss{
     animation-delay: 1s;
