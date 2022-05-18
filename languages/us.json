@@ -19,5 +19,22 @@
         "second-hobbie-description":"Another hobby that I am passionate about is playing football, it is always good to get together with friends but it is even better when there is a ball involved.",
         "last-hobbie-title":"Family and Friends",
         "last-hobbie-description":"Last but not least, I love to enjoy going out with friends, watching series and movies and spending beautiful moments with my family."
-    }
+    },
+    "proyect":{
+        "proyect-one-title": "Movies",
+        "proyect-one-description-1":"First project using ReactJS",
+        "proyect-one-description-2":"In this project I use pure React JS with some dependencies within the React ecosystem such as React Router V6 for the linking of the different pages. In addition, I implement the use of default hooks like useState and useEffect as well as some custom hooks, which I use for the browser. <br/>On the other hand, I use the https://www.themoviedb.org api, a free api for this type of project.",
+        "proyect-two-title": "Portfolio",
+        "proyect-two-description-1":"Personal project in which I present myself and share my skills",
+        "proyect-two-description-2":"In this website I show the use of the HTML and CSS structure to make a responsive website using the display flex and display grid properties. In addition, through Javascript I make color modifications both in the 'Dark' or 'Light' reading mode, as well as the color of some elements and texts where the user can choose to their liking.<br/>Finally, the choice option of language I do it through a local json and I obtain the values through fetch.",
+        "proyect-three-title": "Batery",
+        "proyect-three-description-1":"Page I did for practice for keyboard events",
+        "proyect-three-description-2":"In this small application I use the keyboard event listener and a small animation to generate the action effect on each 'box'."
+ },
+    "study":{
+        "study-one-description":"Thanks to Jon Mircha I was able to learn a lot of Javascript concepts. It teaches you the entire language from scratch, starting with data types, variables, scopes, functions, etc. to the latest and most advanced. To date, it has more than 100 videos, it continues to upload with the latest updates coming out of Javascipt. I highly recommend it!",
+        "study-two-description":"In addition to thoroughly teaching Javascript, he also teaches React. Just like JS, it starts from level 0 for people who have absolutely no knowledge, starting from the installation of React to the use of hooks, use of apis, ajax, fetch, among other things. Thanks to these videos by Jon Mircha I continue to learn React.",
+        "study-three-description":"Dalto is a well-known programmer today in networks among young people. It all started with him, I wrote my first 'Hello world' in the browser. It has a fun way of making you learn from the very basics of HTML, CSS, and Javascript. I highly recommend Dalto to take the first steps in web development.",
+        "study-four-description":"As with the HTML course, Dalto explains many CSS concepts in a fun and entertaining way in a video that lasts almost 10 hours (edited!) for which there is nothing but thanks from the people who want to learn and enter this world so huge"
+}
 }

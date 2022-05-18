@@ -1,7 +1,7 @@
 {
     "profile":{
         "rol": "Desarrollado Front-End",
-        "description":"Llevo 2 años y medio incursionando en el apasionante mundo de la programacion web. Apasionado de las nuevas tecnologias, en especial el ecosistema CSS, JS y ReactJS.        Mi objetivo es poder encontrar mi primer trabajo donde me pueda desempeñar profesionalmente, demostrar mis habilidades y continuar aprendiendo."
+        "description":"Llevo 2 años y medio incursionando en el apasionante mundo de la programacion web. Apasionado de las nuevas tecnologias, en especial el ecosistema CSS, JS y ReactJS. <br /> Mi objetivo es poder encontrar mi primer trabajo donde me pueda desempeñar profesionalmente, demostrar mis habilidades y continuar aprendiendo."
     },
     "experience":{
         "general-title": "Experiencia",
@@ -19,5 +19,23 @@
         "second-hobbie-description":"Otro hobbie que me apasiona es jugar al football, siempre es bueno juntarse con amigos pero mejor aun se hay una pelota de por medio.",
         "last-hobbie-title":"Familia y Amigos",
         "last-hobbie-description":"Por ultimo pero no menos importante, me encanta disfrutar de salir con amigos, ver series y peliculas y pasar momentos hermosos en familia."
+    },
+
+    "proyect":{
+        "proyect-one-title": "Peliculas",
+        "proyect-one-description-1":"Primer proyecto utilizando ReactJS",
+        "proyect-one-description-2":"En este proyecto utilizo React JS puro con algunas dependencias dentro del ecosistema de React como lo es React Router V6 para el enlazado de las distintas páginas. Además, implemento el uso de hooks predeterminados como el useState y useEffect como también algunos hooks personalizados, los cuales utilice para el buscador. <br/>Por otro lado realizo el consumo de la api https://www.themoviedb.org, api gratuita para este tipo de proyectos.",
+        "proyect-two-title": "Portfolio",
+        "proyect-two-description-1":"Proyecto personal en el cual me prensento y comparto mis habilidades",
+        "proyect-two-description-2":"En esta web muestro el uso de la estructura HTML y de CSS para realizar una web responsiva utilizando las propiedades display flex y display grid. Además, mediante Javascript realizo modificaciones de color tanto de modo de lectura 'Dark' o 'Light', como también el color de algunos elementos y textos donde el usuario puede elegir a su gusto.<br/>Por último, la opción de elección de idioma la realizo mediante un json local y obtengo los valores mediante fetch.",
+        "proyect-three-title": "Bateria",
+        "proyect-three-description-1":"Pagina que realice de practica para eventos de teclado",
+        "proyect-three-description-2":"En esta pequeña aplicacion utilizo la escucha de eventos del teclado y una pequeña animacion para generar el efecto de accion sobre cada 'caja'."
+    },
+    "study":{
+        "study-one-description":"Gracias a Jon Mircha pude aprender muchísimos conceptos de Javascript. Te enseña todo el lenguaje desde cero, arrancando por tipo de datos, variables, alcances, funciones etc hasta lo último y más avanzado. Al día de hoy tiene más de 100 videos continúa subiendo con las ultimas actualizaciones que salen de Javascipt. ¡Lo recomiendo mucho!",
+        "study-two-description":"Además de enseñar de manera minuciosa Javascript, también lo hace con React. Al igual que JS arranca desde el nivel 0 para las personas que no tienen absolutamente nada de conocimiento, arrancando desde la instalación de React hasta el uso de hooks, uso de apis, ajax, fetch, entre otras cosas. Gracias a estos videos de Jon Mircha continúo aprendiendo React.",
+        "study-three-description":"Dalto es un programador muy conocido hoy en redes entre los jóvenes. Con el empezó todo, escribí mi primer 'Hola mundo' en el navegador. Tiene una manera divertida de hacer que aprendas desde lo más básico en HTML, CSS y Javascript. Recomiendo mucho a Dalto para dar los primeros pasos en el desarrollo web.",
+        "study-four-description":"Al igual que con el curso de HTML, Dalto explica de forma divertida y amena muchísimos conceptos de CSS en un video que dura casi unas 10hs (editado!) lo cual no hay más que agradecimiento desde las personas que queremos aprender y adentrarnos en este mundo tan inmenso."
     }
 }
