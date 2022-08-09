@@ -24,12 +24,22 @@
         "proyect-one-title": "Movies",
         "proyect-one-description-1":"First project using ReactJS",
         "proyect-one-description-2":"In this project I use pure React JS with some dependencies within the React ecosystem such as React Router V6 for the linking of the different pages. In addition, I implement the use of default hooks like useState and useEffect as well as some custom hooks, which I use for the browser. <br/>On the other hand, I use the https://www.themoviedb.org api, a free api for this type of project.",
-        "proyect-two-title": "Portfolio",
-        "proyect-two-description-1":"Personal project in which I present myself and share my skills",
-        "proyect-two-description-2":"In this website I show the use of the HTML and CSS structure to make a responsive website using the display flex and display grid properties. In addition, through Javascript I make color modifications both in the 'Dark' or 'Light' reading mode, as well as the color of some elements and texts where the user can choose to their liking.<br/>Finally, the choice option of language I do it through a local json and I obtain the values through fetch.",
-        "proyect-three-title": "Batery",
-        "proyect-three-description-1":"Page I did for practice for keyboard events",
-        "proyect-three-description-2":"In this small application I use the keyboard event listener and a small animation to generate the action effect on each 'box'."
+        "proyect-two-title": "Test Challenge Spot2",
+        "proyect-two-description-1":"Test Challenge",
+        "proyect-two-description-2":"In this challenge, I had to use a filter to show different spots depending on parameters such as size and location. Also use a map where the markets will be displayed, for this use Context. I also used PropTypes, ReactRouter, styled Component and axios to make the request to the endpoint.",
+        "proyect-three-title": "GAC SRL Website",
+        "proyect-three-description-1":"Cleaning company website",
+        "proyect-three-description-2":"Web page with 5 sections with a form to request a quote and send a CV. For the design use Figma to present the visual to the client and to program Bootstrap together with SASS.",
+        "proyect-four-title": "Portfolio",
+        "proyect-four-description-1":"Personal project in which I present myself and share my skills",
+        "proyect-four-description-2":"In this website I show the use of the HTML and CSS structure to make a responsive website using the display flex and display grid properties. In addition, through Javascript I make color modifications both in the 'Dark' or 'Light' reading mode, as well as the color of some elements and texts where the user can choose to their liking.<br/>Finally, the choice option of language I do it through a local json and I obtain the values through fetch.",
+        "proyect-five-title": "Batery",
+        "proyect-five-description-1":"Page I did for practice for keyboard events",
+        "proyect-five-description-2":"In this small application I use the keyboard event listener and a small animation to generate the action effect on each 'box'.",
+        "proyect-six-title": "JavaScrip & DOM",
+        "proyect-six-description-1":"Page where I show various uses of the DOM and its tools (UNDER CONSTRUCTION!)",
+        "proyect-six-description-2":"The previous battery project motivated me to develop a page that shows the uses of the DOM and the native tools or APIs that the browser brings, such as the use of detection of a webcam, geolocation, events and listeners, among other things. . Regarding CSS there is not much development since the main idea is the execution of Javascript."
+
  },
     "study":{
         "study-one-description":"Thanks to Jon Mircha I was able to learn a lot of Javascript concepts. It teaches you the entire language from scratch, starting with data types, variables, scopes, functions, etc. to the latest and most advanced. To date, it has more than 100 videos, it continues to upload with the latest updates coming out of Javascipt. I highly recommend it!",
