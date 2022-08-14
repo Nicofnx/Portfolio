@@ -134,12 +134,15 @@ img{
     gap: 1.5em;
 }
 
-@media screen and (min-width:720px) {
-    .main{
-        grid-template-columns: min-content 1fr;
-    }
+.img-certificado {
+    width: auto;    
+    transition: all 1s ease-in-out;
     
 }
+
+
+
+
 
 .column{
     display: grid;
@@ -147,14 +150,7 @@ img{
 
 }
 
-@media screen and (min-width:720px) {
-    .column--right{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, min-content);
-        
-    }
-    
-}
+
 
 .card{
     padding: 1em;
@@ -212,18 +208,7 @@ img{
     line-height: 1.6;
 }
 
-@media screen and (min-width:720px) {
-    
 
-    .card__project{
-        display: grid;
-        grid-template-columns: min-content 1fr;
-        grid-column: 1 / -1;
-        overflow: hidden;
-    }
-
-    
-}
 
 .skills{
     
@@ -353,13 +338,7 @@ img{
     position: relative;
 }
 
-@media screen and (min-width:720px) {
-    
 
-    .project{
-        margin-left: 2em;
-    }
- }
 
  .project__tags{
      display: flex;
@@ -369,17 +348,7 @@ img{
      width: 275px;
  }
 
- @media screen and (min-width:720px) {
 
-    .project__tags{
-        
-        width: 325px;
-        font-size: 0.8rem;
-        
-    }
-
-
- }
 
  .project__tag{
     padding: .4em .8em;
@@ -394,12 +363,7 @@ img{
      width: 225px;
  }
 
- @media screen and (min-width:720px) {
-    .buttons{
-        position: absolute;
-        bottom: 1em;
-    }
- }
+ 
 
  .button{
      width: 100px;
@@ -442,23 +406,18 @@ img{
 }
 
 .footer{
-    width: 70vh;
+    width: 100%;
     
 }
 
-@media screen and (min-width:720px) {
-    .footer{
-        width: 100%;
-        
-    }
- }
+
 
 .footer-container{
     display: flex;
     width: 100%;
-    justify-content: center;    
+    justify-content: space-evenly;    
     flex-wrap: wrap;
-    gap: 5rem;
+    
     align-items: center;
     height: 150px;
     
@@ -520,3 +479,56 @@ img{
 
 }
 
+@media screen and (min-width:720px) {
+    .main{
+        grid-template-columns: min-content 1fr;
+    }
+    .img-certificado {        
+        cursor: pointer;       
+        
+    }
+    .card__project{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        grid-column: 1 / -1;
+        overflow: hidden;
+    }
+
+    .img-certificado:active {
+        position: absolute;
+        top: auto;
+        left: auto;
+        width: 50%;
+        z-index: 100;
+    }
+    .column--right{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
+        
+    }
+    .buttons{
+        position: absolute;
+        bottom: 1em;
+    }
+
+    .project{
+        margin-left: 2em;
+    }
+
+    .project__tags{
+        
+        width: 325px;
+        font-size: 0.8rem;
+        
+    }
+    
+    .footer{
+        width: 100%;
+        
+    }
+    .footer-container{
+        width: 50%;
+        margin: auto;
+    }
+    
+}
