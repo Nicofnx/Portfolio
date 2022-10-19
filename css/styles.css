@@ -141,6 +141,7 @@ img{
 .img-certificado {
     width: auto;    
     transition: all 1s ease-in-out;
+    margin-bottom: 20px;
     
 }
 
