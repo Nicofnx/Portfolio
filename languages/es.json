@@ -39,7 +39,10 @@
         "proyect-five-description-2":"En esta pequeña aplicacion utilizo la escucha de eventos del teclado y una pequeña animacion para generar el efecto de accion sobre cada 'caja'.",
         "proyect-six-title": "JavaScrip & DOM",
         "proyect-six-description-1":"Pagina donde muestro varios usos del DOM y sus herramientas (EN CONSTRUCCION!)",
-        "proyect-six-description-2":"El proyecto anterior de la bateria me motivo a desarrollar una pagina en donde se muestren los usos del DOM y las herramientas o APIs nativas que trae el navegador, como el uso de deteccion de una camara web, geolocalizacion, eventos y escuchas, entre otras cosas. En cuanto a CSS no hay mucho desarrollo ya que la idea principal es la ejecucion de Javascript."
+        "proyect-six-description-2":"El proyecto anterior de la bateria me motivo a desarrollar una pagina en donde se muestren los usos del DOM y las herramientas o APIs nativas que trae el navegador, como el uso de deteccion de una camara web, geolocalizacion, eventos y escuchas, entre otras cosas. En cuanto a CSS no hay mucho desarrollo ya que la idea principal es la ejecucion de Javascript.",
+        "proyect-seven-description-1":"Practica de conceptos básicos",
+        "proyect-seven-description-2":"Para poner en practica lo visto en mis primeros pasos en React realice algunas cards para practicar el concepto de componente y props de los mismos, ademas un contador para practicar el uso de estados y sus cambios, también una calculadora y por ultimo una lista de tareas donde por medio de props, estado y funciones, agrego, quito o tacho tareas a realizar."
+
 
     },
     "study":{
