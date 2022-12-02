@@ -42,6 +42,7 @@
         "proyect-six-description-2":"El proyecto anterior de la bateria me motivo a desarrollar una pagina en donde se muestren los usos del DOM y las herramientas o APIs nativas que trae el navegador, como el uso de deteccion de una camara web, geolocalizacion, eventos y escuchas, entre otras cosas. En cuanto a CSS no hay mucho desarrollo ya que la idea principal es la ejecucion de Javascript.",
         "proyect-seven-description-1":"Practica de conceptos básicos",
         "proyect-seven-description-2":"Para poner en practica lo visto en mis primeros pasos en React realice algunas cards para practicar el concepto de componente y props de los mismos, ademas un contador para practicar el uso de estados y sus cambios, también una calculadora y por ultimo una lista de tareas donde por medio de props, estado y funciones, agrego, quito o tacho tareas a realizar.",
+        "proyect-eight-title": "Proyecto Ecommerce con React & Firebase",
         "proyect-eight-description-1":"Desarrollo Ecommerce",
         "proyect-eight-description-2":"Proyecto React de un Ecommerce donde utilizo distintos tipos de vista como modales o ruteo con React Router, distintos tipos de filtrados, context para el manejo de carrito, Firebase para el manejo de base de datos, entre otras cosas."
 
