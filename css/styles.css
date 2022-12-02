@@ -194,7 +194,7 @@ img{
 .card__title{
     margin: 0;
     margin-bottom: 1em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     
 }
 
@@ -209,7 +209,7 @@ img{
 }
 
 .card__text{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
@@ -335,7 +335,7 @@ img{
 }
 
 .experience__description{
-    font-size: .8rem;
+    font-size: 1rem;
     margin-bottom: 1.5em;
 }
 
