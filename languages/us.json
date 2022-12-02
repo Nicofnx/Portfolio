@@ -40,7 +40,9 @@
         "proyect-six-description-1":"Page where I show various uses of the DOM and its tools (UNDER CONSTRUCTION!)",
         "proyect-six-description-2":"The previous battery project motivated me to develop a page that shows the uses of the DOM and the native tools or APIs that the browser brings, such as the use of detection of a webcam, geolocation, events and listeners, among other things. . Regarding CSS there is not much development since the main idea is the execution of Javascript.",
         "proyect-seven-description-1":"Basics Practice",
-        "proyect-seven-description-2":"To put into practice what I saw in my first steps in React, I made some cards to practice the concept of components and their props, as well as a counter to practice the use of states and their changes, also a calculator and finally a list of tasks where by means of props, state and functions, I add, remove or cross out tasks to perform."
+        "proyect-seven-description-2":"To put into practice what I saw in my first steps in React, I made some cards to practice the concept of components and their props, as well as a counter to practice the use of states and their changes, also a calculator and finally a list of tasks where by means of props, state and functions, I add, remove or cross out tasks to perform.",
+        "proyect-eight-description-1":"Proyect Ecommerce",
+        "proyect-eight-description-2":"React project of an Ecommerce where I use different types of views such as modals or routing with React Router, different types of filtering, context for cart management, Firebase for database management, among other things."
 
 
  },
