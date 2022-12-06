@@ -397,6 +397,15 @@ img{
      
  }
 
+ .curso_img {
+    width: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
  .card__formation{
      width: 150px;
      height: 300px;

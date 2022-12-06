@@ -19,6 +19,8 @@ const changeLanguge = async (language)=>{
     }
 } 
 
+
+
 toggleTheme.addEventListener("click", ()=>{
     d.body.classList.toggle('dark');
     if(toggleIcon.src.includes('moon.svg')){
@@ -29,16 +31,26 @@ toggleTheme.addEventListener("click", ()=>{
         toggleText.textContent='Night Mode'
 
     }
-
+    
 })
 
+
+if(localStorage.getItem('setColor')){
+    rootStyle.setProperty('--primary-color',localStorage.getItem('setColor'))
+}
+
 toggleColors.addEventListener('click',(e)=>{
- console.log(e.target.dataset)
- rootStyle.setProperty('--primary-color', e.target.dataset.color)
+    let setColor=(e.target.dataset)
+    rootStyle.setProperty('--primary-color', e.target.dataset.color)
+    localStorage.setItem('setColor', setColor.color)
+ 
 })
 
 flagsElement.addEventListener('click',(e)=>{
     changeLanguge(e.target.parentElement.dataset.language)
 
 })
+
+
+
 
